@@ -1,9 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Profile from "./Profile"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Profile from './Profile'
 
 const Layout = ({ children }) => {
-
   return (
     <>
       <aside>
@@ -15,7 +14,7 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 }
 
 export default Layout

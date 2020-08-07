@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby PWA studies`,
+    position: 'JavaScript Developer',
     description: `Este site foi criado para armazenar meus estudos sobre Gatsby, PWA, GraphQL, Netlify CMS...`,
     author: `@lutidev`,
   },
